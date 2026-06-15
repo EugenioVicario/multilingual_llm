@@ -1,0 +1,11 @@
+##Country-Level Data
+#This directory contains the country-level datasets used in the study. These files are derived by aggregating language-level LLM responses using WVS/EVS language distributions and by combining them with country-level survey data for comparative analyses.
+
+##results_country_llm.xlsx:
+#This file contains the country-level moral judgment estimates generated from multilingual LLM responses. Language-level responses are aggregated using country-specific language weights derived from the WVS/EVS survey distributions.
+
+##country_dataset.xlsx:
+#This file contains the main country-level dataset used in the analyses. It combines WVS/EVS survey measures and country-level LLM estimates, providing the data used to compute alignment measures, distance matrices, and all subsequent country-level analyses.
+
+##country_code.xlsx:
+#This file contains country identifiers and metadata used to harmonize datasets and ensure consistency across survey data, LLM-generated estimates, and visualization outputs.
