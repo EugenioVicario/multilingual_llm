@@ -1,0 +1,14 @@
+##Analysis
+#This directory contains the notebooks used to analyze multilingual LLM responses and compare them with country-level moral judgments derived from the WVS/EVS surveys. The analyses reproduce the main results and visualizations reported in the paper.
+
+##results_language.ipynb:
+#This notebook analyzes multilingual variation in LLM responses by constructing pairwise distance and correlation matrices between languages. It generates the language-level similarity measures used to assess whether model-generated moral judgments vary systematically across the different languages included in the study.
+
+##results_maps.ipynb:
+#This notebook compares country-level moral judgments from the WVS/EVS surveys with the corresponding country-level LLM-generated responses. It computes, for each country, the correlation and distance between survey-based and LLM-based results and visualizes these alignment measures through country-level maps.
+
+##results_country_distances.ipynb:
+#This notebook computes pairwise country-level moral distance matrices from WVS/EVS survey data and LLM-generated responses. It constructs the survey-based, LLM-based, and REAL–LLM difference matrices, performs hierarchical clustering based on country discrepancy profiles, and generates the visualizations used to compare the moral distance structures of human populations and multilingual LLM outputs.
+
+##results_items_clustering.ipynb:
+#This notebook constructs item-level REAL–LLM discrepancy profiles by comparing country-level survey responses with country-level LLM judgments. It computes pairwise distances between items based on their cross-country discrepancy patterns, performs hierarchical clustering, and identifies the moral domains used throughout the analysis.
