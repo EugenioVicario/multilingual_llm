@@ -1,0 +1,8 @@
+## Data Generation
+#This directory contains the notebooks used to generate the country-level datasets analyzed in the study, starting from multilingual LLM responses and survey-based language distributions.
+
+##prompt_multilingual_LLM.ipynb :
+#This notebook contains the complete set of WVS/EVS survey items in all original languages used in the study and the code required to query the OpenAI API, generate multilingual LLM responses, and reproduce the data collection procedure described in the paper.
+
+##converter_language_to_country.ipynb:
+#This notebook converts language-level LLM responses into country-level estimates using language weights derived from the WVS/EVS survey distributions. It reproduces the aggregation procedure described in the paper and generates the country-level datasets used for all subsequent analyses.
